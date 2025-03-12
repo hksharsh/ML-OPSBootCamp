@@ -1,5 +1,5 @@
 from flask import Blueprint,redirect,url_for;
-
+# why no trigger
 app2 = Blueprint('app2', __name__)
 @app2.route('/admin')
 def admin():
